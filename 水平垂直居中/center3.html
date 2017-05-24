@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>div与内容水平垂直居中</title>
+    <style type="text/css">
+        *{
+            margin:0;
+            padding:0;
+        }
+        div.container{
+            background-color:pink;
+            border:2px solid #000;
+            width:500px;
+            height:500px;
+            position:fixed;
+            left:50%;
+            top:50%;
+            margin-left:-250px;
+            margin-top:-250px;
+            display:table;
+            
+        }
+        div.wrapper{
+            text-align:center;
+            display:table-cell;
+            vertical-align: middle;
+        }
+        div.wrapper img{
+            border:1px solid #ddd;
+            width:200px;
+            height:200px;
+        } 
+    </style>
+     
+</head>
+<body>
+    <div class="container">
+            <div class="wrapper">
+                <img src="e4.jpg" alt="美女"/>   
+                <p>花谢花飞花满天</p>             
+            </div>
+    </div>  
+</body>
+</html>
