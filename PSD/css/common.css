@@ -1,0 +1,35 @@
+.clearfix:after{
+	display:block;
+	clear:both;
+	content:'';
+	visibility:hidden;
+	height:0;
+}
+ul{
+	list-style:none;
+}
+.public-container{
+	position:realtive;
+	margin:0 auto;
+}
+.public-header{
+	height:110px;
+	background:#ffff;
+}
+.public-footer{
+	height:318px;
+	background:#3b3b3b;
+}
+
+.border-1px:after{
+	display:block;
+	width:196px;
+	border-bottom:1px solid #e5e3e3;
+	content:'';
+}
+
+
+
+
+
+
